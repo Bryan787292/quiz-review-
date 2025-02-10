@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+
+//delcaration: name, parameters(), return
+bool isPotato(string word);
+
+
+int main() {
+	//call
+	cout<<isPotato("carrot");
+
+
+}
+//definition
+bool isPotato(string word) {
+	if (word == "potato") //chars take single quotes, strings take double 
+		return true;
+	else
+		return false;
+
+
+}
