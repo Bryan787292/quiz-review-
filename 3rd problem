@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+//declaration: name, parameters(), return type 
+void HiChew(); //void means doens't reutnr anything!
+
+int main() {
+
+
+
+
+
+}
+//definition
+void HiChew() {
+	int num = rand() % 100;
+	if (num < 25)
+		cout << "you got a kiwi!" << endl;
+	else if (num < 50)
+		cout << "you got a mango!" << endl;
+	else if (num < 75)
+		cout << "you got a pineapple!" << endl;
+	else
+		cout << "you got a dragonfruit!" << endl;
+}
+//to comment it all ctrl a ctrl k ctrl c to undo it ctrl a ctrl k ctrl u 
